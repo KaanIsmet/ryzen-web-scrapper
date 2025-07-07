@@ -34,14 +34,8 @@ class Parser:
         return list
 
 
-
-
-
     def set_response(self, response):
         self.response = response
 
     def get_response(self) -> requests.models.Response | None:
-        return self.response
-
-    def getStatusCode(self):
         return self.response
