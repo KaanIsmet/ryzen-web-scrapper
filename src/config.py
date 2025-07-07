@@ -1,12 +1,12 @@
-BASE_URL = "https://www.microcenter.com/search/search_results.aspx?N=&cat=&Ntt="
+BASE_URL = "https://www.microcenter.com/"
 SEARCH_ENDPOINT = "search/"
 SEARCH_RESULTS_ENDPOINT = "search_results.aspx?Ntt="
 
 #ENSURE ONLY CPU GETS SEARCHED
-CATEGORY_CONFIG= "Ntx=mode+MatchPartial&Ntk=all&sortby=match&N=4294804349&myStore=true"
+CATEGORY_CONFIG= "&Ntx=mode+MatchPartial&Ntk=all&sortby=match&N=4294804349&myStore=true"
 #modify item searched
 #use '+' as delimiter
-ITEM_SEARCHED = "ryzen+7+cpu"
+ITEM_SEARCHED = "ryzen+7"
 
 FILE_EXTENSION = "csv"
 OUTPUT_FILE = "scraped_data.csv"
