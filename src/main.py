@@ -7,7 +7,7 @@ def main():
 
     response = Scraper(BASE_URL, SEARCH_ENDPOINT, SEARCH_RESULTS_ENDPOINT, ITEM_SEARCHED ,CATEGORY_CONFIG)
     parser = Parser(response)
-
+    print(parser.get_response())
     parser.parse_products()
 
 
