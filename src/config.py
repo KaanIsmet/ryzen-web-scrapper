@@ -9,7 +9,8 @@ CATEGORY_CONFIG= "&Ntx=mode+MatchPartial&Ntk=all&sortby=match&N=4294804349&mySto
 ITEM_SEARCHED = "ryzen+7"
 
 FILE_EXTENSION = "csv"
-OUTPUT_FILE = "scraped_data.csv"
+OUTPUT_FILE = "scraped_data"
+DIRECTORY = "data"
 
 #tell parser where to find data on webpage
 SELECTORS = {
