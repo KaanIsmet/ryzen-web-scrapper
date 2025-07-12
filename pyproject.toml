@@ -4,6 +4,6 @@ requires = ["setuptools>=80.9.0", "wheel"]
 [project]
 name="ryzenWebScrapper"
 version="0.1.0"
-dependencies= ["pandas", "requests", "beautifulsoup4"]
+dependencies= ["pandas", "requests", "beautifulsoup4", "html5lib"]
 readme= "README.md"
 license= {file = "LICENSE"}
