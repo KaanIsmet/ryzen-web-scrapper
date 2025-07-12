@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/cli.py
+src/config.py
+src/main.py
+src/parser.py
+src/scraper.py
+src/storage.py
+src/utils.py
+src/ryzenWebScrapper.egg-info/PKG-INFO
+src/ryzenWebScrapper.egg-info/SOURCES.txt
+src/ryzenWebScrapper.egg-info/dependency_links.txt
+src/ryzenWebScrapper.egg-info/requires.txt
+src/ryzenWebScrapper.egg-info/top_level.txt
