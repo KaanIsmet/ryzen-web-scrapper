@@ -1,9 +1,9 @@
 BASE_URL = "https://www.microcenter.com/"
 SEARCH_ENDPOINT = "search/"
-SEARCH_RESULTS_ENDPOINT = "search_results.aspx?Ntt="
+SEARCH_RESULTS_ENDPOINT = "search_results.aspx?"
 
 #ENSURE ONLY CPU GETS SEARCHED
-CATEGORY_CONFIG= "&Ntx=mode+MatchPartial&Ntk=all&sortby=match&N=4294804349&myStore=true"
+CATEGORY_CONFIG= "fq=category_flat:Processors%2FCPUs|123&Ntt="
 #modify item searched
 #use '+' as delimiter
 ITEM_SEARCHED = "ryzen+7"
@@ -22,3 +22,5 @@ SELECTORS = {
     'div_result_right': '.result_right',
 
 }
+
+#https://www.microcenter.com/search/search_results.aspx?
